@@ -1,0 +1,62 @@
+{
+  "name": "07-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build:dist": "set NODE_ENV=production && webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.11.0",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "css-loader": "^0.25.0",
+    "fetch": "^1.1.0",
+    "history": "^4.6.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "react-mixin": "^2.0.2",
+    "react-responsive": "^1.3.0",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-import": "^1.2.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "babel": {
+    "presets": [
+      [
+        "es2015",
+        {
+          "modules": false
+        }
+      ],
+      "react"
+    ],
+    "plugins": [
+      "react-hot-loader/babel",
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "libraryDirectory": "lib",
+          "style": "css"
+        }
+      ]
+    ]
+  }
+}
