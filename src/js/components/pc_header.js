@@ -99,7 +99,7 @@ class PCHeader extends React.Component{
         <Menu.Item key="logout" class="register">
           <Button type="primary" htmlType="button">{this.state.userNickname}</Button>
           &nbsp;&nbsp;
-          <Link to='/usercenter' target="_blank">
+          <Link to='/usercenter' target="_blank" class="person-center">
             <Button type="dashed" htmlType="button">个人中心</Button>
           </Link>
           &nbsp;&nbsp;
@@ -109,7 +109,7 @@ class PCHeader extends React.Component{
           <Icon type="appstore"/>注册/登录
         </Menu.Item>;
       return (
-        <header>
+        <header class="header-menu">
           <Row>
             <Col span={2}></Col>
             <Col span={3}>

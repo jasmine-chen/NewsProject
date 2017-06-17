@@ -32,7 +32,7 @@ export default class PCNewsDetails extends React.Component{
   };
   render(){
     return(
-      <div>
+      <div class="news_details">
         <PCHeader></PCHeader>
         <Row>
           <Col span={2}></Col>
@@ -41,7 +41,7 @@ export default class PCNewsDetails extends React.Component{
             <CommonComments uniquekey={this.props.match.params.uniquekey} />
           </Col>
           <Col span={6}>
-            <PCNewsImageBlock bordered={false} type="top" count={40} width="100%" cardTitle="头条新闻" imageWidth="150px" imageHeight="90px" />
+            <PCNewsImageBlock bordered={false} type="top" count={40} width="100%" cardTitle="头条新闻" imageWidth="96%" imageHeight="94px" />
           </Col>
           <Col span={2}></Col>
         </Row>

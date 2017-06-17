@@ -10,6 +10,7 @@ const config = {
 	context: path.resolve(__dirname, "src"),
 
 	entry: [
+		'babel-polyfill',
 		'./index.js'
 	],
 	resolve: {

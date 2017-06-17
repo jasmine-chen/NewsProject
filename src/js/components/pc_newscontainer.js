@@ -41,7 +41,7 @@ export default class PCNewsContainer extends React.Component{
                   </Carousel>
                 </div>
                 <div class="news-image">
-                  <PCNewsImageBlock bordered={true} type="guoji" cardTitle="国际" count={6} width="400px" imageWidth="112px" imageHeight="90px"/>
+                  <PCNewsImageBlock bordered={true} type="guoji" cardTitle="国际" count={6} width="100%" imageWidth="97%" imageHeight="90px"/>
                 </div>
               </div>
               <Tabs class="tabs_news">
@@ -64,9 +64,9 @@ export default class PCNewsContainer extends React.Component{
                 </TabPane>
               </Tabs>
             </div>
-            <div>
-              <PCNewsImageBlock bordered={true} type="guonei" cardTitle="国内" count={8} width="100%" imageWidth="144px" imageHeight="96px"/>
-              <PCNewsImageBlock bordered={true} type="yule" cardTitle="娱乐" count={16} width="100%" imageWidth="144px" imageHeight="96px"/>
+            <div class="news-image-bottom">
+              <PCNewsImageBlock bordered={true} type="guonei" cardTitle="国内" count={8} width="100%" imageWidth="97%" imageHeight="96px"/>
+              <PCNewsImageBlock bordered={true} type="yule" cardTitle="娱乐" count={16} width="100%" imageWidth="97%" imageHeight="96px"/>
             </div>
           </Col>
           <Col span={2}></Col>
