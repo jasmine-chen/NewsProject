@@ -50,7 +50,7 @@ PC 端和移动端的该功能页面如下：
 - 利用 webpack 对资源管理打包，进行开发和生产环境的转换。
 
 ### 平台支持
-- 平台的后台支持采用的是公共免费的新闻测试接口，具体如下
+1. 平台的后台支持采用的是公共免费的新闻测试接口，具体如下
  * [获取新闻列表](http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=top&count=10)
  * [新闻添加评论](http://newsapi.gugujiankong.com/Handler.ashx?action=comment&userid=1&uniquekey=123&commnet=content)
  * [收藏新闻](http://newsapi.gugujiankong.com/Handler.ashx?action=uc&userid=1&uniquekey=123)
@@ -59,7 +59,7 @@ PC 端和移动端的该功能页面如下：
  * [获取用户发出的评论](http://newsapi.gugujiankong.com/Handler.ashx?action=getusercomments&userid=1)
 
 
-- 平台中首页的“新闻各有态度”版块，是仿照“网易新闻”相关版块构建的，资源也采用了“网易新闻”中的相关资源，仅是用于学习练习，在此说明。
+2. 平台中首页的“新闻各有态度”版块，是仿照“网易新闻”相关版块构建的，资源也采用了“网易新闻”中的相关资源，仅是用于学习练习，在此说明。
 
 ### 预览与源码使用
 
