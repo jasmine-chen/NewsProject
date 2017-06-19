@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {Card} from 'antd';
 
+import 'whatwg-fetch';
+
 export default class PCNewsBlock extends React.Component{
   constructor(){
       super();

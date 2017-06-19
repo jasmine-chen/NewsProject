@@ -9,6 +9,8 @@ import {
 } from 'antd';
 const FormItem = Form.Item;
 
+import 'whatwg-fetch';
+
 class CommonComments extends React.Component{
   constructor(){
     super();

@@ -5,6 +5,8 @@ import MobileHeader from './mobile_header';
 import MobileFooter from './mobile_footer';
 import CommonComments from './common_comments';
 
+import 'whatwg-fetch';
+
 export default class MobileNewsDetails extends React.Component{
   constructor(){
     super();

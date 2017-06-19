@@ -11,6 +11,7 @@ const config = {
 
 	entry: [
 		'babel-polyfill',
+		'whatwg-fetch',
 		'./index.js'
 	],
 	resolve: {
@@ -96,10 +97,11 @@ if(process.env.NODE_ENV !== undefined && process.env.NODE_ENV.trim() === 'produc
 	// only- 意味着只有成功更新运行代码才会执行热替换(HMR)
 	config.entry.push('webpack/hot/only-dev-server');
 	// 开启 React 代码的模块热替换(HMR) 在生产环境不使用
-	config.entry.unshift('react-hot-loader/patch');
+	// config.entry.unshift('react-hot-loader/patch');
 	// 对于热替换是必须的，让 webpack  知道在哪里载入热更新的模块(chunk)
 	config.output.publicPath = '/';
-	config.devtool = 'inline-source-map';
+	// config.devtool = 'inline-source-map';
+	// config.devtool = 'cheap-module-eval-source-map';
 	config.devServer = {
 		inline: true,
 		hot: true,

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import {Row, Col} from 'antd';
 import logo from '../../images/logo.png';
 
+import 'whatwg-fetch';
+
 import {
   Menu,
   Icon,

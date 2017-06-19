@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {Row, Col} from 'antd';
 
+import 'whatwg-fetch';
+
 export default class MobileList extends React.Component{
   constructor(){
       super();

@@ -10,6 +10,7 @@ import {
 const TabPane = Tabs.TabPane;
 import PCHeader from './pc_header';
 import PCFooter from './pc_footer';
+import 'whatwg-fetch';
 
 export default class PCUserCenter extends React.Component {
   constructor(){

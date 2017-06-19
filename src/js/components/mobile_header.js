@@ -13,6 +13,8 @@ import {
 const FormItem = Form.Item;
 const TabPane = Tabs.TabPane;
 
+import 'whatwg-fetch';
+
 import logo from '../../images/logo.png';
 
 

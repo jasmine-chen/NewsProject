@@ -11,6 +11,8 @@ const TabPane = Tabs.TabPane;
 import MobileHeader from './mobile_header';
 import MobileFooter from './mobile_footer';
 
+import 'whatwg-fetch';
+
 export default class MobileUserCenter extends React.Component {
   constructor(){
     super();
