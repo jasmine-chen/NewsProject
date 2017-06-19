@@ -50,14 +50,14 @@ PC 端和移动端的该功能页面如下：
 - 利用 webpack 对资源管理打包，进行开发和生产环境的转换。
 
 ### 平台支持
-1. 平台的后台支持采用的是公共免费的新闻测试接口，具体如下
- * [获取新闻列表](http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=top&count=10)
- * [新闻添加评论](http://newsapi.gugujiankong.com/Handler.ashx?action=comment&userid=1&uniquekey=123&commnet=content)
- * [收藏新闻](http://newsapi.gugujiankong.com/Handler.ashx?action=uc&userid=1&uniquekey=123)
- * [注册登录接口](http://newsapi.gugujiankong.com/Handler.ashx?action=register&username=userName&password=password&r_userName=r_userName&r_password=r_password&r_confirmPassword=r_confirmPassword)
- * [获取用户收藏](http://newsapi.gugujiankong.com/Handler.ashx?action=getuc&userid=1)
- * [获取用户发出的评论](http://newsapi.gugujiankong.com/Handler.ashx?action=getusercomments&userid=1)
+1. 平台的后台支持采用的是公共免费的新闻测试接口，具体如下:
 
+ - [获取新闻列表](http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=top&count=10)
+ - [新闻添加评论](http://newsapi.gugujiankong.com/Handler.ashx?action=comment&userid=1&uniquekey=123&commnet=content)
+ - [收藏新闻](http://newsapi.gugujiankong.com/Handler.ashx?action=uc&userid=1&uniquekey=123)
+ - [注册登录接口](http://newsapi.gugujiankong.com/Handler.ashx?action=register&username=userName&password=password&r_userName=r_userName&r_password=r_password&r_confirmPassword=r_confirmPassword)
+ - [获取用户收藏](http://newsapi.gugujiankong.com/Handler.ashx?action=getuc&userid=1)
+ - [获取用户发出的评论](http://newsapi.gugujiankong.com/Handler.ashx?action=getusercomments&userid=1)
 
 2. 平台中首页的“新闻各有态度”版块，是仿照“网易新闻”相关版块构建的，资源也采用了“网易新闻”中的相关资源，仅是用于学习练习，在此说明。
 
@@ -71,4 +71,4 @@ PC 端和移动端的该功能页面如下：
 
 3. 若需要对源码开发调试，需将仓库 clone, 利用 `npm install` 进行包安装才可使用。
 
-4. 目前该平台只适配了 Chrome，FF, Edge 浏览器。对 IE 的支持在后续调试中。请先采用前三种浏览器进行开发预览。
+4. 目前该平台适配了 Chrome，FireFox, Edge，IE10+ 浏览器，请先采用这些浏览器进行开发预览。
